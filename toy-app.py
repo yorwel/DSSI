@@ -28,6 +28,6 @@ with col2:
     # Plot histogram for age of patients
     fig, ax = plt.subplots(figsize=(6, 3))
     if 1==1: # Evaluate True to show plot
-        df['age'].hist(bins = 10, ax=ax)
+        df['age'].hist(bins = 30, ax=ax)
         fig.suptitle("Age Distribution")
         st.pyplot(fig)
